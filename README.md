@@ -2,7 +2,7 @@
 
 Steven: resource page
 
-Chuong: kind of left
+Chuong: Menu 
 
 Sommer: center
 
