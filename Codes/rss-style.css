@@ -1,0 +1,94 @@
+.icon {
+    width: 23px;
+    height: 18px;
+    margin-left: 48px;
+    margin-top: 8px;
+}
+
+.bicon {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cs4063 {
+    font-family: Arial;
+    font-size: 14;
+    position: absolute;
+    top: 17px;
+    left: 96px;
+    color: #993333
+}
+
+.cs4063:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.arrow {
+    font-family: Arial;
+    font-size: 14;
+    position: absolute;
+    top: 18px;
+    left: 190px;
+    color: grey;
+}
+
+.rss {
+    font-family: Arial;
+    font-size: 14;
+    position: absolute;
+    top: 17px;
+    left: 204px;
+    color: black;
+}
+
+.hrSpring {
+    color: #e8e8e8;
+    border-width: 0;
+    background-color: #e8e8e8;
+    height: 0.8px;
+    margin-left: 53px;
+    margin-top: 15px;
+}
+
+.b {
+    padding: 5px 5px;
+    border: none;
+    background: none;
+    color: #993333;
+    cursor: pointer;
+    font-size: 12;
+}
+
+.b:hover {
+    text-decoration: underline;
+}
+
+.bb {
+    padding: 5px 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 12;
+    color: black;
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: black;
+    font-weight: bold;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.semester {
+    font-size: 8px;
+    text-indent: 9px;
+    font-family: Arial;
+}
+
+.menu {
+    position: absolute;
+    top: 63px;
+    left: 45px;
+    border: none;
+}
