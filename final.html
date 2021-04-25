@@ -8,17 +8,27 @@
 
   <head>
     <title></title>
-    <script src="https://kit.fontawesome.com/20961f3617.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20961f3617.js" crossorigin="anonymous">
+      function display() 
+      {
+        var x = document.getElementById("menu");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+      }
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
   </head>
   
   <body>
-    <button class="bicon"><img class= "icon" src = "icon.PNG"></button>
+    <button class="bicon" onclick="display()"><img class= "icon" src = "icon.PNG"></button>
     <div class="cs4063">C S-4063-001</div>
     <hr class="hrSpring">
-    <fieldset>
+    <fieldset id="menu">
         <p class="semester"><i>Spring 2021</i></p>
         <button type="button" class="b home">Home</button>
         <br/>
@@ -45,8 +55,8 @@
         <button type="button" class="b">New Analytics</button>
     </fieldset>
 </body>
-  
-    <style>
+
+<style>
     .icon {
         width: 23px;
         height: 18px;
@@ -67,8 +77,8 @@
         top: 17px;
         left: 96px;
     }
-      
-     .cs4063:hover {
+    
+    .cs4063:hover {
         text-decoration: underline;
         cursor: pointer;
     }
@@ -118,6 +128,7 @@
         border: none;
     }
 </style>
+
 </html>
 
 <!----------------------------------------------------------------------------->
