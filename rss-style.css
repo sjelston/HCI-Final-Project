@@ -25,6 +25,24 @@
     cursor: pointer;
 }
 
+.arrow {
+    font-family: Arial;
+    font-size: 14;
+    position: absolute;
+    top: 18px;
+    left: 190px;
+    color: grey;
+}
+
+.rss {
+    font-family: Arial;
+    font-size: 14;
+    position: absolute;
+    top: 17px;
+    left: 204px;
+    color: black;
+}
+
 .hrSpring {
     color: #e8e8e8;
     border-width: 0;
