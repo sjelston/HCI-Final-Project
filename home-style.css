@@ -80,8 +80,10 @@
     position: absolute;
     top: 63px;
     left: 240px;
+    right: 300px;
     border: none;
-    max-width: 870px;
+    min-width: 50px;
+    object-fit: cover;
 }
 
 h2 {
@@ -102,7 +104,7 @@ h2 {
 }
 
 .wrap {
-    max-width: 830px;
+    max-width: 1800px;
 }
 
 p {
