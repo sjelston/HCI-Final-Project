@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#table-wrapper {
+  position:relative;
+}
+
+#table-wrapper table thead th .text {
+  position:absolute;   
+  top:-33px;
+  border:1px solid #dddddd;
+  width:100%;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+#table-wrapper table {
+  width:100%;
+  border-collapse: collapse;
+}
+
+#table-wrapper thead {
+  text-align: left;
+}
+
+#table-scroll {
+  height:200px; /* change this value to change the vertical size of the table */
+  overflow:auto;  
+  margin-top:33px;
+}
+</style>
+</head>
+<body>
+
+<div id="table-wrapper">
+<div id="table-scroll">
+<table>
+  <thead>
+  <tr>
+    <th style="width:100px"><span class="text">Date</span></th>
+    <th><span class="text">Link</span></th>
+  </tr>
+  </thead>
+  <tr>
+    <td>XX-XX-XX</td>
+    <td>link.com</td>
+  </tr>
+  <tr>
+    <td>XX-XX-XX</td>
+    <td>link.com</td>
+  </tr>
+  <tr>
+    <td>XX-XX-XX</td>
+    <td>link.com</td>
+  </tr>
+  <tr>
+    <td>XX-XX-XX</td>
+    <td>link.com</td>
+  </tr>
+  <tr>
+    <td>XX-XX-XX</td>
+    <td>link.com</td>
+  </tr>
+  <tr>
+    <td>XX-XX-XX</td>
+    <td>link.com</td>
+  </tr>
+</table>
+</div>
+</div>
+
+<div id="table-wrapper">
+<div id="table-scroll">
+<table>
+  <thead>
+  <tr>
+    <th style="width:200px"><span class="text">Name of Resource</span></th>
+    <th><span class="text">Link</span></th>
+    <th style="width:300px"><span class="text">Description
+    </span></th>
+  </tr>
+  </thead>
+  <tr>
+    <td>resource</td>
+    <td>link.com</td>
+    <td>it's a resource</td>
+  </tr>
+  <tr>
+    <td>resource</td>
+    <td>link.com</td>
+    <td>it's a resource</td>
+  </tr>
+  <tr>
+    <td>resource</td>
+    <td>link.com</td>
+    <td>it's a resource</td>
+  </tr>
+  <tr>
+    <td>resource</td>
+    <td>link.com</td>
+    <td>it's a resource</td>
+  </tr>
+  <tr>
+    <td>resource</td>
+    <td>link.com</td>
+    <td>it's a resource</td>
+  </tr>
+  <tr>
+    <td>resource</td>
+    <td>link.com</td>
+    <td>it's a resource</td>
+  </tr>
+</table>
+</div>
+</div>
+
+</body>
+</html>
