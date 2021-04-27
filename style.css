@@ -1,8 +1,69 @@
 /******************************************************************************/
+.buttonRIGHT {
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 5px auto;
+  cursor: pointer;
+  background: #f5f5f5;
+  color: #2D3B45;
+  border: 1px solid;
+  border-color: #C7CDD1;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+  position: relative;
+  padding: 8px 14px;
+  vertical-align: middle;
+  cursor: pointer;
+  font-family: 'Lato';
+  font-size: 16px;
+  width: 245px;
+}
 
+.buttonRIGHT:hover {
+  background-color: #e6e6e6;
+}
 
-/******************************************************************************/
+.h6RIGHT {
+  font-family: 'Lato';
+  font-size: 16px;
+}
 
+.buttonTODO {
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  background: #ffffff;
+  color: #993333;
+  border: none;
+  transition: color 0.2s ease-in-out;
+  position: relative;
+  padding: 8px 14px;
+  vertical-align: middle;
+  cursor: pointer;
+  font-family: 'Lato';
+  font-size: 14px;
+  line-height: 1.1;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 6px;
+}
 
+.buttonTODO:hover {
+  color: #732626;
+  text-decoration: underline;
+}
 
+.pTODO {
+  font-family: 'Lato';
+  font-size: 14px;
+  color: #2D3B45;
+}
+
+.divFEEDBACK {
+  font-family: 'Lato';
+  font-size: 13px;
+  color: #777777
+}
 /******************************************************************************/
