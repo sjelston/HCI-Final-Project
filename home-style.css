@@ -1,0 +1,276 @@
+.icon {
+    width: 23px;
+    height: 18px;
+    margin-left: 48px;
+    margin-top: 8px;
+}
+
+.bicon {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cs4063 {
+    font-family: 'Lato';
+    font-size: 18px;
+    position: absolute;
+    top: 17px;
+    left: 96px;
+}
+
+.cs4063:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hrSpring {
+    color: #e8e8e8;
+    border-width: 0;
+    background-color: #e8e8e8;
+    height: 0.8px;
+    margin-left: 53px;
+    margin-top: 15px;
+}
+
+.b {
+    padding: 8px 5px;
+    border: none;
+    background: none;
+    color: #993333;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Lato';
+}
+
+.b:hover {
+    text-decoration: underline;
+}
+
+.bb {
+    padding: 8px 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Lato';
+    color: black;
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: black;
+    font-weight: bold;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.semester {
+    font-size: 10px;
+    text-indent: 7px;
+    font-family: 'Lato';
+}
+
+.menu {
+    position: absolute;
+    top: 63px;
+    left: 55px;
+    border: none;
+}
+
+.middle {
+    position: absolute;
+    top: 63px;
+    left: 240px;
+    border: none;
+    max-width: 870px;
+}
+
+h2 {
+    font-family: 'Lato';
+    font-size: 29px;
+    color: #666666;
+    margin-bottom: 15px;
+    width: 855px;
+}
+
+.mid-hr {
+    color: #666666;
+    border-width: 0;
+    background-color: #e8e8e8;
+    height: 2px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.wrap {
+    max-width: 830px;
+}
+
+p {
+    font-family: 'Lato';
+    font-size: 16px;
+    color: #2D3B45;
+    padding-left: 10px;
+    overflow: hidden;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+.three-dot {
+    width: 27px;
+    height: 30px;
+    position: absolute;
+    left: 1060px;
+    top: 20px;
+}
+
+.buttonBox {
+  position: absolute;
+  right: 25px;
+  top: 95px;
+}
+
+.buttonRIGHT {
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  cursor: pointer;
+  background: #f5f5f5;
+  color: #2D3B45;
+  border: 1px solid;
+  border-color: #C7CDD1;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+  padding: 8px 14px;
+  margin: 5px auto;
+  vertical-align: middle;
+  cursor: pointer;
+  font-family: 'Lato';
+  font-size: 16px;
+  width: 240px;
+  height: 38px;
+}
+
+.buttonRIGHT:hover {
+  background-color: #e6e6e6;
+}
+
+.h6RIGHT {
+  font-family: 'Lato';
+  font-size: 16px;
+  position: absolute;
+}
+
+.divTODO {
+  position: absolute;
+  right: 20px;
+}
+
+.buttonTODO {
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  background: #ffffff;
+  color: #993333;
+  border: none;
+  transition: color 0.2s ease-in-out;
+  position: relative;
+  padding: 8px 14px;
+  vertical-align: middle;
+  cursor: pointer;
+  font-family: 'Lato';
+  font-size: 14px;
+  line-height: 1.1;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 0px;
+}
+.buttonTODO:hover {
+  color: #732626;
+  text-decoration: underline;
+}
+
+.buttonGROUPS {
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  background: #ffffff;
+  color: #993333;
+  border: none;
+  transition: color 0.2s ease-in-out;
+  padding: 8px 14px;
+  vertical-align: middle;
+  font-family: 'Lato';
+  font-size: 15px;
+  line-height: 1.1;
+  display: flex;
+  margin: 0 0 0px;
+  position: absolute;
+  right: 190px;
+}
+.buttonGROUPS:hover {
+  color: #732626;
+  text-decoration: underline;
+}
+
+.pTODO {
+  font-family: 'Lato';
+  font-size: 14px;
+  color: #2D3B45;
+  margin: 0 0 0 30px;
+}
+
+.divFEEDBACK {
+  font-family: 'Lato';
+  font-size: 11px;
+  color: #777777;
+}
+
+.buttonFEEDBACK {
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  background: #ffffff;
+  color: #993333;
+  border: none;
+  transition: color 0.2s ease-in-out;
+  padding: 8px 14px;
+  vertical-align: middle;
+  font-family: 'Lato';
+  font-size: 15px;
+  line-height: 1.1;
+  display: flex;
+  margin: 0 0 0px;
+  position: absolute;
+  right: 60px;
+}
+.buttonFEEDBACK:hover {
+  color: #732626;
+  text-decoration: underline;
+}
+
+.hrRIGHT {
+  width: 235px;
+  position: absolute;
+  color: #2D3B45;
+}
+
+.imgASSIGNMENT {
+  width:17px;
+  height:18px;
+  margin: 0 10px 0 0;
+}
+
+.imgDELETE {
+  width:20px;
+  height:20px;
+  margin: 0 0 0 20px;
+}
+
+.imgCHECK {
+  width:18px;
+  height:19px;
+  margin: 0 12px 0 0;
+}
