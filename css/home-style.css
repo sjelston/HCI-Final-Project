@@ -1,0 +1,129 @@
+.icon {
+    width: 23px;
+    height: 18px;
+    margin-left: 48px;
+    margin-top: 8px;
+}
+
+body{
+    margin:0;
+}
+
+.bicon {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: Arial;
+    top: 10px;
+    left: 65px;
+    position: absolute;
+    font-size:25px;
+    
+}
+
+.bicon:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hrSpring {
+    color: #e8e8e8;
+    border-width: 0;
+    background-color: #e8e8e8;
+    height: 0.8px;
+    margin-left: 53px;
+    margin-top: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.b {
+    padding: 5px 5px;
+    border: none;
+    background: none;
+    color: #993333;
+    cursor: pointer;
+    font-size: 12;
+}
+
+.b:hover {
+    text-decoration: underline;
+}
+
+.bb {
+    padding: 5px 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 12;
+    color: black;
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: black;
+    font-weight: bold;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.semester {
+    font-size: 8px;
+    text-indent: 9px;
+    font-family: Arial;
+}
+
+.menu {
+    position: absolute;
+    top: 63px;
+    left: 45px;
+    border: none;
+}
+
+.middle {
+    position: absolute;
+    top: 63px;
+    left: 185px;
+    border: none;
+    width:50%;
+}
+
+.column.side {
+    width:25%;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mid-hr {
+    color: #e8e8e8;
+    border-width: 0;
+    background-color: #e8e8e8;
+    height: 0.8px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+    padding-left: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.three-dot {
+    width: 27px;
+    height: 30px;
+    position: absolute;
+    left: 1060px;
+    top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .middle, .column.middle {
+    width: 100%;
+  }
+}
